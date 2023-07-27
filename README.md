@@ -11,14 +11,10 @@
 
 # Git Game (中文版)
 ----
-欢迎来到“tree”分支。
+看起来你解决了你的冲突并找到了我们的分支，恭喜！！
 
-看起来好老的 Linus 修改了“nextclue_input.cpp”文件。 
-通常，当使用 shell 脚本“outputclue.sh”运行“nextclue_input.cpp”文件时，该文件会给我们下一个提示。
 
-``Level 6``
+``Level 8``
 
-也许，你应该尝试使用“nextclue_input.cpp”文件运行 shell 脚本并查看会发生什么...
-
-你可以通过运行命令“./outputclue.sh FILE”来运行脚本。 
-如果你在 Windows 上，可以使用安装有 msysgit 的 git-bash
+嗯...看起来这个分支有一个文件，在另一个分支中曾经见过。 
+你“记得”它是什么吗？ 我认为这个文件与下一个线索有关，但它看起来非常丑陋。 也许，如果我们比较这个文件和之前的文件之间的“差异”，我们就会知道下一步该去哪里...
