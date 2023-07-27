@@ -23,7 +23,7 @@ if [ "$file" = "nextclue_input.cpp" ];then
         fi; 
       done;
     done < $file ;
-    echo -e "Well, congratulations!! You fixed my conflict!!\nIf you would like to continue, then you should checkout to the $(echo 90mP8ouQHsNe | tr -d '0-9A-Z') branch!!\n" ;
+    echo -e "哇哦, 恭喜你!! 你解决了我留下的冲突!!\n如果你还想继续,那你就切换到 $(echo 90mP8ouQHsNe | tr -d '0-9A-Z') 分支吧!!\n" ;
    else 
      echo -e $mesg; 
      exit;
