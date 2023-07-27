@@ -6,7 +6,7 @@ fi
 
 file=$1
 bug=7c85d987a917c2a555d1391426978f05
-mesg="Level 7: \n Linus has been here...\nI love messing with these amateur programmers!!\nIf you want some real fun, then you should try resolving a conflict between this branch (tree) and code4life.\nI introduced a little bug that you should fix in the conflict. >:)\nAfter you merge these 2 files you should run the shell script again!!\n\nGood Luck!!!\n\n Hint: https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/ "
+mesg="Level 7: \n Linus 来过了... \nI 我喜欢捉弄这些业余程序员！！\n如果你想要一些真正的乐趣，那么你应该尝试解决这个分支（tree）和 code4life 之间的冲突。\n我引入了一个小错误，你应该在冲突中修复它。>:)\n>:) 在你合并这两个文件之后，你应该再次运行 shell 脚本!!\n\n祝你好运!!!\n\n Hint: https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/ "
 merges=$(git log --format=%h --merges | head -1)
 csum="md5sum"
 if [ $(echo "$OSTYPE" | grep darwin) ];then
