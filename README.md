@@ -9,20 +9,15 @@
 
 ---- 
 
-## 让我们开始本次学习之旅吧！
-首先 Clone 本仓库到你本地：
-> $ git clone https://github.com/Eumenides1/git-game-cn.git
-
-如果你对 Git 还不是很了解，那你应该去看看这些材料：
-- https://github.com/mikeizbicki/ucr-cs100/blob/2015winter/textbook/cheatsheets/git-cheatsheet.md
-- https://github.com/mikeizbicki/ucr-cs100/tree/2015winter/textbook/tools/git/advanced-git
-
-如果你对Git 已经比较熟练了，那么就开始你的挑战吧！
-
+# Git Game (中文版)
 ----
-> 你应该始终检查 README.md 文件以获取下一个线索！
+哇哦！恭喜你，看来你已经了解了在 Git 中如何切换分支。并成功切换到了`Bug`分支
 
-``Level 1``
+当你与其他程序员在同一个项目上工作时，Bug注定会出现。 
+创建Bug的一种方法是在不理解代码正在做什么的情况下更改不属于你自己的代码。
 
-你的第一个任务是找到提交信息是下面这个问题的答案的那次提交，并去到那次提交：
-当程序员开始学习一门新的语言时，他/她学会写的第一段程序是什么？
+``Level 3``
+
+有时我们喜欢责怪别人在我们的代码中引入Bug。 你认为你能找出是谁在我们的文件 cool.java 中引入了bug吗？他一定在 Git 中留下了痕迹。 据我们所知，他还在他的名字下创建了一个分支。 找到罪犯后，请切换到该分支。
+
+如果你还是感到困惑，这个链接可能会有所帮助：http://git-scm.com/docs/git-blame
