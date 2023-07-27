@@ -11,13 +11,14 @@
 
 # Git Game (中文版)
 ----
-哇哦！恭喜你，看来你已经了解了在 Git 中如何切换分支。并成功切换到了`Bug`分支
+欢迎来到“tree”分支。
 
-当你与其他程序员在同一个项目上工作时，Bug注定会出现。 
-创建Bug的一种方法是在不理解代码正在做什么的情况下更改不属于你自己的代码。
+看起来好老的 Linus 修改了“nextclue_input.cpp”文件。 
+通常，当使用 shell 脚本“outputclue.sh”运行“nextclue_input.cpp”文件时，该文件会给我们下一个提示。
 
-``Level 3``
+``Level 6``
 
-有时我们喜欢责怪别人在我们的代码中引入Bug。 你认为你能找出是谁在我们的文件 cool.java 中引入了bug吗？他一定在 Git 中留下了痕迹。 据我们所知，他还在他的名字下创建了一个分支。 找到罪犯后，请切换到该分支。
+也许，你应该尝试使用“nextclue_input.cpp”文件运行 shell 脚本并查看会发生什么...
 
-如果你还是感到困惑，这个链接可能会有所帮助：http://git-scm.com/docs/git-blame
+你可以通过运行命令“./outputclue.sh FILE”来运行脚本。 
+如果你在 Windows 上，可以使用安装有 msysgit 的 git-bash
